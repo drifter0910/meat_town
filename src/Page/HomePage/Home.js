@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import Blog from "./HomeComponents/Blog";
 import Content from "./HomeComponents/Content";
 import Founder from "./HomeComponents/Founder";
 import Hero from "./HomeComponents/Hero";
@@ -11,6 +12,7 @@ const Home = () => {
       <Content />
       <Products />
       <Founder />
+      <Blog />
     </>
   );
 };

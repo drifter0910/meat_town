@@ -16,6 +16,18 @@
     justify-content: flex-start;
     margin-bottom: 1rem;
   }
+  .footer__list,
+  .footer__address {
+    text-align: center;
+    p {
+      text-align: center;
+    }
+  }
+  .footer__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @keyframes navbarAnimation {

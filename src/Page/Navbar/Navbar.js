@@ -27,29 +27,19 @@ const Navbar = () => {
         <div className="navbar__item">
           <ul>
             <li>
-              <NavLink onClick={handleNavbar} to={"/"}>
-                Home
-              </NavLink>
+              <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={"about"}>
-                About
-              </NavLink>
+              <NavLink to={"about"}>About</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
-                Products
-              </NavLink>
+              <NavLink to={""}>Products</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
-                Blog
-              </NavLink>
+              <NavLink to={""}>Blog</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
-                Contact
-              </NavLink>
+              <NavLink to={""}>Contact</NavLink>
             </li>
           </ul>
         </div>

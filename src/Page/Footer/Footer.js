@@ -12,6 +12,7 @@ const Footer = () => {
             span: 12,
           }}
           lg={{ span: 6 }}
+          className="footer__img"
         >
           <img src={footer} alt="" />
         </Col>

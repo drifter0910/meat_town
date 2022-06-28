@@ -1,0 +1,55 @@
+.blog {
+  background-color: #406143;
+  background-image: url(../../../Image/blog.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 90px 1rem;
+  h2 {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+  }
+  h5 {
+    color: white;
+  }
+  display: flex;
+
+  &__content {
+    width: 100%;
+    margin: 0 4%;
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+      h2 {
+        text-align: center;
+      }
+    }
+    &-card {
+      cursor: pointer;
+      &-img {
+        img {
+          width: 100%;
+        }
+      }
+      &-item {
+        padding: 2px 1rem;
+      }
+      &-time {
+        font-size: 14px;
+        font-style: italic;
+      }
+      &-desc {
+        font-size: 24px;
+      }
+    }
+  }
+  .wrap-button {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
