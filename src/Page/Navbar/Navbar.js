@@ -54,8 +54,8 @@ const Navbar = () => {
           </ul>
         </div>
         {/* HAMBURGER SECTION */}
-        {menumask}
         <div className={navbar ? "navbar__hambuger" : "navbar__item-disable"}>
+          {menumask}
           <ul>
             <li>
               <NavLink onClick={handleNavbar} to={"/"}>

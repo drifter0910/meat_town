@@ -1,0 +1,24 @@
+.founder {
+  margin-top: 5rem;
+
+  &__top-img {
+    img {
+      width: 100%;
+    }
+  }
+  &__top-des {
+    &-detail {
+      margin-bottom: 2rem;
+    }
+    a {
+      color: var(--greenDark) !important;
+      font-size: 1.4rem;
+      &:hover {
+        color: var(--greenLight) !important;
+      }
+    }
+  }
+  &__top {
+    margin-bottom: 5rem;
+  }
+}

@@ -6,11 +6,21 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer container">
-      <Row gutter={[16, 0]}>
-        <Col span={6}>
+      <Row gutter={[16, 24]}>
+        <Col
+          xs={{
+            span: 12,
+          }}
+          lg={{ span: 6 }}
+        >
           <img src={footer} alt="" />
         </Col>
-        <Col span={6}>
+        <Col
+          xs={{
+            span: 12,
+          }}
+          lg={{ span: 6 }}
+        >
           <div className="footer__list">
             <Link to={"/"}>Orders</Link>
             <Link to={"/"}>Downloads</Link>
@@ -20,7 +30,12 @@ const Footer = () => {
             <Link to={"/"}>Our statistics</Link>
           </div>
         </Col>
-        <Col span={6}>
+        <Col
+          xs={{
+            span: 12,
+          }}
+          lg={{ span: 6 }}
+        >
           <div className="footer__list">
             <Link to={"/"}>Shipping & Returns</Link>
             <Link to={"/"}>Addresses</Link>
@@ -29,7 +44,13 @@ const Footer = () => {
             <Link to={"/"}>Lost password</Link>
           </div>
         </Col>
-        <Col className="footer__address" span={6}>
+        <Col
+          xs={{
+            span: 12,
+          }}
+          lg={{ span: 6 }}
+          className="footer__address"
+        >
           <p>LOCALIZATION</p>
           <p>Envato</p>
           <p>Level 13,</p>

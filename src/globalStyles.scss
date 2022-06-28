@@ -10,12 +10,16 @@
 .App {
   background-color: var(--bgColor);
   overflow: hidden;
+  font-size: 1rem;
   font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
 ul {
   text-decoration: none;
   margin: 0;
+}
+p {
+  margin: 0 !important;
 }
 li {
   list-style: none;
