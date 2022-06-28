@@ -1,6 +1,6 @@
 import "./globalStyles.scss";
 import Home from "./Page/HomePage/Home";
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./Page/Footer/Footer";
 import "./responsive.scss";
 import About from "./Page/AboutPage/About";

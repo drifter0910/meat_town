@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
 import logo from "../../Image/logo.svg";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
