@@ -1,0 +1,36 @@
+@import "normalize.css";
+
+:root {
+  --bgColor: #f7f2ef;
+  --fontLight: #6e6a6b;
+  --greenLight: #69c656;
+  --greenDark: #749372;
+}
+
+.App {
+  background-color: var(--bgColor);
+  overflow: hidden;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+ul {
+  text-decoration: none;
+  margin: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+}
+a {
+  color: var(--fontLight) !important;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: black !important;
+  }
+}
+
+.button--primary {
+  background-color: #578a52;
+  color: #578a52;
+}

@@ -1,0 +1,34 @@
+.hero {
+  background: url(../../../Image/hero.webp) no-repeat fixed center;
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    h1 {
+      font-size: 68px;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.c1920 {
+  max-width: 2048px;
+  margin: 0 auto;
+}

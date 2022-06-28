@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 5rem;
+  img {
+    width: 116px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    a {
+      font-size: 18px;
+    }
+  }
+  &__address:nth-child(1) p {
+    font-weight: bold;
+  }
+  &__address p {
+    margin: 0;
+    font-size: 16px;
+  }
+}

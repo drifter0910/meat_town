@@ -1,0 +1,21 @@
+.products {
+  display: flex;
+  margin-top: 5rem;
+
+  &__top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    h6 {
+      color: var(--greenLight);
+    }
+    h2 {
+      line-height: 50px;
+      width: 60%;
+      text-align: center;
+    }
+  }
+}
