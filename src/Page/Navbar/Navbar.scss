@@ -19,6 +19,39 @@
   }
   &__hambuger {
     display: none;
+
+    display: flex !important;
+    position: absolute;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 10;
+    transition: 0.5s;
+    animation: navbarAnimation ease-in 0.2s;
+    ul {
+      flex-direction: column;
+      z-index: 10;
+      width: 100%;
+      background-color: gray;
+      text-align: center;
+      padding: 0;
+    }
+    li {
+      width: 100%;
+      margin: 0;
+      padding: 1rem 2rem;
+      &:hover {
+        background-color: gray;
+        background-color: #3987c9;
+      }
+    }
+    a {
+      display: block;
+      color: white !important;
+      width: 100%;
+    }
   }
   &__item-disable {
     display: none;
