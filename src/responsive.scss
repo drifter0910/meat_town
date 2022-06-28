@@ -20,6 +20,10 @@
     width: 100%;
     height: 100%;
     left: 0;
+    z-index: 10;
+    transition: 0.5s;
+    animation: navbarAnimation ease-in 0.2s;
+
     ul {
       flex-direction: column;
       z-index: 10;
@@ -43,5 +47,16 @@
       color: white !important;
       width: 100%;
     }
+  }
+}
+
+@keyframes navbarAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

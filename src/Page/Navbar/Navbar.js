@@ -10,6 +10,8 @@ const Navbar = () => {
   const handleNavbar = () => {
     setNavbar((prevState) => !prevState);
   };
+  var menumask;
+  menumask = <div className="menu-mask" onClick={() => setNavbar(false)}></div>;
 
   return (
     <div className="navbar">
@@ -22,7 +24,7 @@ const Navbar = () => {
         icon={navbar ? faTimes : faBars}
       />
       <div className="navbar__list">
-        <div className={navbar ? "navbar__hambuger" : "navbar__item"}>
+        <div className="navbar__item">
           <ul>
             <li>
               <NavLink onClick={handleNavbar} to={"/"}>
@@ -51,25 +53,37 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* <div className={navbar ? "navbar__item" : "navbar__hambuger"}>
+        {/* HAMBURGER SECTION */}
+        {menumask}
+        <div className={navbar ? "navbar__hambuger" : "navbar__item-disable"}>
           <ul>
             <li>
-              <NavLink to={""}>Home</NavLink>
+              <NavLink onClick={handleNavbar} to={"/"}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>About</NavLink>
+              <NavLink onClick={handleNavbar} to={"about"}>
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Products</NavLink>
+              <NavLink onClick={handleNavbar} to={""}>
+                Products
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Blog</NavLink>
+              <NavLink onClick={handleNavbar} to={""}>
+                Blog
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Contact</NavLink>
+              <NavLink onClick={handleNavbar} to={""}>
+                Contact
+              </NavLink>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </div>
   );

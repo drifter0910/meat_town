@@ -9,7 +9,13 @@ const Content = () => {
   return (
     <div className="content container">
       <Row gutter={[24, 16]}>
-        <Col className="content__item-wrapper" span={8}>
+        <Col
+          className="content__item-wrapper"
+          xs={{
+            span: 24,
+          }}
+          lg={{ span: 8 }}
+        >
           <div className="content__item">
             <img src={chicken} alt="" />
             <h4>Turkey</h4>
@@ -20,7 +26,13 @@ const Content = () => {
             <Link to={"/"}>LEARN MORE</Link>
           </div>
         </Col>
-        <Col className="content__item-wrapper" span={8}>
+        <Col
+          className="content__item-wrapper"
+          xs={{
+            span: 24,
+          }}
+          lg={{ span: 8 }}
+        >
           <div className="content__item">
             <img src={cow} alt="" />
             <h4>Beef</h4>
@@ -31,7 +43,13 @@ const Content = () => {
             <Link to={"/"}>LEARN MORE</Link>
           </div>
         </Col>
-        <Col className="content__item-wrapper" span={8}>
+        <Col
+          className="content__item-wrapper"
+          xs={{
+            span: 24,
+          }}
+          lg={{ span: 8 }}
+        >
           <div className="content__item">
             <img src={rabbit} alt="" />
             <h4>Rabbit</h4>
