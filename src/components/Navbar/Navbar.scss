@@ -1,10 +1,13 @@
+@import "../../styles/variables.scss";
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   max-width: 1920px;
-
+  a {
+    color: $fontColor;
+  }
   &__logo {
     width: 140px;
   }
@@ -17,7 +20,8 @@
     li {
       margin: 0 20px;
       font-size: 20px;
-      color: var(--fontLight);
+      color: $fontColor;
+      font-weight: 500;
     }
   }
 

@@ -18,6 +18,10 @@
         color: $greenLight !important;
       }
     }
+    &-detail {
+      line-height: 1.8rem;
+      color: $fontColor;
+    }
   }
   &__top {
     margin-bottom: 5rem;

@@ -7,6 +7,9 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  let activeStyle = {
+    color: "black",
+  };
   const handleNavbar = () => {
     setNavbar((prevState) => !prevState);
   };
@@ -27,19 +30,44 @@ const Navbar = () => {
         <div className="navbar__item">
           <ul>
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to={"/"}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"about"}>About</NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to={"about"}
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Products</NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to={"product"}
+              >
+                Products
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Blog</NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to={"blog"}
+              >
+                Blog
+              </NavLink>
             </li>
             <li>
-              <NavLink to={""}>Contact</NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to={"contact"}
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -58,17 +86,17 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
+              <NavLink onClick={handleNavbar} to={"product"}>
                 Products
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
+              <NavLink onClick={handleNavbar} to={"blog"}>
                 Blog
               </NavLink>
             </li>
             <li>
-              <NavLink onClick={handleNavbar} to={""}>
+              <NavLink onClick={handleNavbar} to={"contact"}>
                 Contact
               </NavLink>
             </li>
