@@ -34,7 +34,7 @@ const Products = () => {
         <Row>
           <Col
             xs={{
-              span: 24,
+              span: 12,
             }}
             lg={{ span: 6 }}
           >
@@ -46,7 +46,7 @@ const Products = () => {
           </Col>
           <Col
             xs={{
-              span: 24,
+              span: 12,
             }}
             lg={{ span: 6 }}
           >
@@ -58,7 +58,7 @@ const Products = () => {
           </Col>{" "}
           <Col
             xs={{
-              span: 24,
+              span: 12,
             }}
             lg={{ span: 6 }}
           >
@@ -70,7 +70,7 @@ const Products = () => {
           </Col>{" "}
           <Col
             xs={{
-              span: 24,
+              span: 12,
             }}
             lg={{ span: 6 }}
           >

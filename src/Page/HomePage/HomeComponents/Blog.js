@@ -78,8 +78,8 @@ const Blog = () => {
                 color: "white",
                 borderColor: "transparent",
                 fontWeight: "bold",
-                paddingBottom: "1rem",
               }}
+              size="large"
               className="button"
               type="primary"
             >
