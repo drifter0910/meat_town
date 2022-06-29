@@ -1,5 +1,5 @@
-.hero {
-  background: url(../../../Image/hero.webp);
+.hero-about {
+  background: url(../../../assets/image/about.jpg);
   background-size: cover;
   background-repeat: no-repeat; /* Do not repeat the image */
   width: 100%;
@@ -18,6 +18,9 @@
     align-items: center;
     position: absolute;
     top: 20%;
+    &-wrap {
+      width: 60%;
+    }
     h1 {
       font-size: 68px;
       text-align: center;

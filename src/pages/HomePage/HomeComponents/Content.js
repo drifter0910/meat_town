@@ -1,9 +1,9 @@
 import React from "react";
 import "./Content.scss";
 import { Col, Row } from "antd";
-import chicken from "../../../Image/chicken.webp";
-import cow from "../../../Image/cow.webp";
-import rabbit from "../../../Image/rabbit.webp";
+import chicken from "../../../assets/image/chicken.webp";
+import cow from "../../../assets/image/cow.webp";
+import rabbit from "../../../assets/image/rabbit.webp";
 import { Link } from "react-router-dom";
 const Content = () => {
   return (

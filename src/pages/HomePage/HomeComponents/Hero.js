@@ -6,25 +6,27 @@ const Hero = () => {
   return (
     <div className="container-fluid">
       <div className="c1920">
-        <div className="hero-about">
-          <div className="hero-about__content">
-            <h1>About us</h1>
-            <p>
-              Laoreet est curae etiam facilisis posuere litora praesent
-              facilisis iaculis hac vehicula tincidunt lacinia torquent nec nam
-              ut vehicula enim.
-            </p>
+        <div className="hero">
+          <div className="hero__content">
+            <h1>Pure & eco farm</h1>
+            <div className="hero-about__content-wrap">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam porter
+                ellen vira.
+              </p>
+            </div>
             <Button
               type="primary"
               size="large"
               style={{
-                backgroundColor: "#716d6a",
+                backgroundColor: "#578a52",
                 color: "white",
                 borderColor: "transparent",
                 fontWeight: "bold",
               }}
             >
-              CONTACT US
+              LEARN MORE
             </Button>
           </div>
         </div>

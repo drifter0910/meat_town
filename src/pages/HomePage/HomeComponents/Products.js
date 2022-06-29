@@ -1,13 +1,13 @@
 import React from "react";
 import "./Products.scss";
 import { Button, Row, Col } from "antd";
-import prod1 from "../../../Image/prod1.webp";
-import prod2 from "../../../Image/prod2.webp";
-import prod3 from "../../../Image/prod3.webp";
-import prod4 from "../../../Image/prod4.webp";
-import safe from "../../../Image/safe-shopping.webp";
-import location from "../../../Image/location.webp";
-import delivery from "../../../Image/delivery.webp";
+import prod1 from "../../../assets/image/prod1.webp";
+import prod2 from "../../../assets/image/prod2.webp";
+import prod3 from "../../../assets/image/prod3.webp";
+import prod4 from "../../../assets/image/prod4.webp";
+import safe from "../../../assets/image/safe-shopping.webp";
+import location from "../../../assets/image/location.webp";
+import delivery from "../../../assets/image/delivery.webp";
 
 const Products = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Founder.scss";
 import { Row, Col } from "antd";
-import founder from "../../../Image/founder.webp";
-import founder2 from "../../../Image/founder2.webp";
+import founder from "../../../assets/image/founder.webp";
+import founder2 from "../../../assets/image/founder2.webp";
 
 import { Link } from "react-router-dom";
 const Founder = () => {

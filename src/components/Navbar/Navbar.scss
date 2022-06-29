@@ -3,23 +3,26 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  max-width: 1920px;
 
   &__logo {
     width: 140px;
   }
-  &__list ul {
-    display: flex;
-    align-items: center;
-    margin: 0;
+  &__list {
+    ul {
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+    li {
+      margin: 0 20px;
+      font-size: 20px;
+      color: var(--fontLight);
+    }
   }
-  &__list li {
-    margin: 0 20px;
-    font-size: 20px;
-    color: var(--fontLight);
-  }
+
   &__hambuger {
     display: none;
-
     display: flex !important;
     position: absolute;
     flex-direction: column;

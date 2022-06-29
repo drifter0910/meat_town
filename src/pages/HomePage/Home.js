@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.scss";
 import Blog from "./HomeComponents/Blog";
 import Content from "./HomeComponents/Content";
 import Founder from "./HomeComponents/Founder";

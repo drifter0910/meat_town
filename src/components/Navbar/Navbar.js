@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import logo from "../../Image/logo.svg";
+import logo from "../../assets/image/logo.svg";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +14,7 @@ const Navbar = () => {
   menumask = <div className="menu-mask" onClick={() => setNavbar(false)}></div>;
 
   return (
-    <div className="navbar">
+    <div className="navbar container">
       <div className="navbar__logo">
         <img src={logo} alt=""></img>
       </div>

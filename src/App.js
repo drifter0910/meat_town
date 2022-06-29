@@ -1,10 +1,10 @@
-import "./globalStyles.scss";
-import Home from "./Page/HomePage/Home";
+import "../src/styles/global.scss";
+import Home from "./pages/HomePage/Home";
 import { Routes, Route, Outlet } from "react-router-dom";
-import Footer from "./Page/Footer/Footer";
-import "./responsive.scss";
-import About from "./Page/AboutPage/About";
-import Navbar from "./Page/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import "../src/styles/responsive.scss";
+import About from "./pages/AboutPage/About";
+import Navbar from "./components/Navbar/Navbar";
 import ScrollToTop from "./ScrollToTop";
 function App() {
   return (

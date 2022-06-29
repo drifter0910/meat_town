@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "../styles/variables.scss";
 
 :root {
   --bgColor: #f7f2ef;
@@ -8,7 +9,7 @@
 }
 
 .App {
-  background-color: var(--bgColor);
+  background-color: $bgColor;
   overflow: hidden;
   font-size: 1rem;
   font-family: -apple-system, system-ui, BlinkMacSystemFont;
@@ -26,15 +27,10 @@ li {
   margin: 0;
 }
 a {
-  color: var(--fontLight) !important;
+  color: $fontColor !important;
   text-decoration: none;
   &:hover {
     text-decoration: none;
     color: black !important;
   }
-}
-
-.button--primary {
-  background-color: #578a52;
-  color: #578a52;
 }

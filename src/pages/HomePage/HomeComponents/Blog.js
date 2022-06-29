@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
 import "./Blog.scss";
-import blog1 from "../../../Image/blog1.webp";
-import blog2 from "../../../Image/blog2.webp";
-import blog3 from "../../../Image/blog3.webp";
+import blog1 from "../../../assets/image/blog1.webp";
+import blog2 from "../../../assets/image/blog2.webp";
+import blog3 from "../../../assets/image/blog3.webp";
 const Blog = () => {
   return (
     <div className="blog container">
